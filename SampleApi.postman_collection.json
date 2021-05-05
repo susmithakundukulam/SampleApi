@@ -1,0 +1,467 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SampleApi",
+		"_postman_id": "e7678d2f-d08e-6a0f-fca9-f2ecb638a102",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get Employee",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/getEmployee?offset=0&recordsPerPage=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"getEmployee"
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "recordsPerPage",
+							"value": "10",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "Hris",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Jore",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "hris@gmail.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get Employee2",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/getEmployee2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"getEmployee2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"offset\" : 0,\n\"recordsPerPage\" : 10\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add Employee3",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/addEmployee3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"addEmployee3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "susmitha",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add Employee4",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/addEmployee3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"addEmployee3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get Employee5",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/getEmployee5/1?offset=0&recordsPerPage=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"getEmployee5",
+						"1"
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "recordsPerPage",
+							"value": "10",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "Hris",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Jore",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "hris@gmail.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add EmployeeFile6",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/sampleApi/Dummy/addEmployeeFile6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sampleApi",
+						"Dummy",
+						"addEmployeeFile6"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"description": "",
+							"type": "file",
+							"src": "New Microsoft Word Document.docx"
+						},
+						{
+							"key": "name",
+							"value": "susmitha",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "10",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
