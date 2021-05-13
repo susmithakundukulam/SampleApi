@@ -69,21 +69,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 	    http
-			/*// dont authenticate this particular request
-	    	.authorizeRequests().antMatchers("/authenticate").permitAll()
-	    	// all other requests need to be authenticated
-	        .anyRequest().authenticated()
-	        .and()
-	        .formLogin().permitAll()
-	        .and()
-	        .logout().permitAll()
-	        .and()
-	        // make sure we use stateless session; session won't be used to
-			// store user's state.
-	        .exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint).and().sessionManagement()
-			.sessionCreationPolicy(SessionCreationPolicy.STATELESS);*/
-	    
-	 // We don't need CSRF for this example
+	    	// We don't need CSRF for this example
 	 		.csrf().disable()
 	 				// dont authenticate this particular request
 	 				.authorizeRequests().antMatchers("/sec/authenticate").permitAll().
